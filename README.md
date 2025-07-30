@@ -1,8 +1,8 @@
-🧪 SauceDemo Selenium Test Suite
+# 🧪 SauceDemo Selenium Test Suite
 Automated UI tests for SauceDemo using Selenium WebDriver, Java, and TestNG. Designed following the Page Object Model (POM) pattern for clear structure and scalability.
 
-📋 Features Tested
-✅ Login Tests
+## 📋 Features Tested
+### ✅ Login Tests
 - Standard user login (valid credentials)
 
 - Invalid username/password
@@ -15,35 +15,35 @@ Automated UI tests for SauceDemo using Selenium WebDriver, Java, and TestNG. Des
 
 - Logout functionality
 
-🛒 Cart Functionality
+### 🛒 Cart Functionality
 - Add/remove product from product and cart pages
 
 - Cart badge number update
 
 - Cart badge assertion
 
-📦 Product Sorting
+### 📦 Product Sorting
 - Name (A-Z / Z-A)
 
 - Price (low to high / high to low)
 
 - Validated correctness of sorting via comparison
 
-🧾 Checkout Process
+### 🧾 Checkout Process
 - Fill in checkout form
 
 - Finish checkout and validate success message
 
 - Try to checkout without filling all fields
 
-📁 Project Structure
+## 📁 Project Structure
 - base/: Reusable code (e.g., ExcelReader, BaseTest)
   
 - pages/: Page Object Model classes
 
 - tests/: Test classes grouped by feature
 
-🚀 How to Run
+## 🚀 How to Run
 1. Clone the repo:
 
 git clone https://github.com/vbudzar/SaucedemoSelenium.git
@@ -61,7 +61,7 @@ mvn clean install
 
 - Or directly from the test class
 
-✅ Technologies Used
+## ✅ Technologies Used
 - Java
 
 - Selenium WebDriver
@@ -74,7 +74,7 @@ mvn clean install
 
 - Page Object Model (POM)
 
-📌 Lessons and QA Concepts Demonstrated
+## 📌 Lessons and QA Concepts Demonstrated
 - Data-Driven Testing (DDT)
 
 - Assertions (UI elements, sorting logic, cart status)
