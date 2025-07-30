@@ -47,15 +47,17 @@ Automated UI tests for SauceDemo using Selenium WebDriver, Java, and TestNG. Des
 1. Clone the repo:
 
   ```bash
-git clone https://github.com/yourusername/SaucedemoSelenium.git
+git clone https://github.com/vbudzar/SaucedemoSelenium.git
 cd SaucedemoSelenium
+```
 
 2. Import into IntelliJ or Eclipse as a Maven project.
 
 3. Update dependencies with:
 
-bash
+  ```bash
 mvn clean install
+```
 
 4. Run tests:
 
